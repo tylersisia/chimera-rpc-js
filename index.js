@@ -4,10 +4,10 @@
 
 'use strict'
 
-const TurtleCoind = require('./lib/turtlecoind-rpc')
+const chimerad = require('./lib/chimerad-rpc')
 const WalletAPI = require('./lib/walletapi-rpc')
 
 module.exports = {
-  TurtleCoind,
+  chimerad,
   WalletAPI
 }
